@@ -2,10 +2,6 @@ var express = require('express');
 var router = express.Router();
 
 router.get('/', function (req, res) {
-  res.redirect('/bfhl');
-});
-
-router.get('/bfhl', function(req, res) {
   res.render('index');
 });
 
